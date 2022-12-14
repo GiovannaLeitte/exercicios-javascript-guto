@@ -1,6 +1,5 @@
-function mostrar () {
-    let data = document.getElementById("data").value
-    
-    document.getElementById("resposta").innerHTML = Dia newDate.getDate() + Mês newDate.getmonth()+1 + ano newDate.getFullYear();     
+function Mostrar () { 
+    let data = document.getElementById('data').value
+    let newData = new Date(data);
+    document.getElementById('resposta').innerHTML = 'Dia: {newData.getDate ()}, Mês: {newData.getMonth ()+1} , Ano: {newData.getFullYear}';
 }
-
