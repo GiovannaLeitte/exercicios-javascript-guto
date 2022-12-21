@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="javascript:calcularIdade()" method="post">
-        Idade: <input id="idade" type="number">
+    <form action="javascript:calcularPeriodo()" method="post">
+        <label>Qual turno voce estuda? digite M-Matutino, V-Vespertino ou N-Noturno</label>
+        <input id="periodo" type="text">
         <button type="submit" id="exibir">Exibir resposta</button>
-        <div id="resposta"></div>
     </form>
+    <div id="resposta"></div>
     <script src="app.js"></script>
 </body>
 </html>
